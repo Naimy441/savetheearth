@@ -1,3 +1,3 @@
 document.getElementById('test').addEventListener("click", function() {
-    console.log("Test Sucessful!");
+    document.getElementsByClassName('p')[0].innerHTML = "test success";
 });
